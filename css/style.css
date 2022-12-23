@@ -26,6 +26,10 @@ video {
     max-width: 100%;
 }
 
+.container.noname {
+    margin-top: 3rem;
+}
+
 /* scritte */
 h2 {
     font-size: 3rem;
@@ -36,9 +40,9 @@ h2 {
 .box {
     background-color: gold;
     color: blue;
-    min-height: 100px;
-    line-height: 100px;
-    border: 2px dashed black;
+    min-height: 80px;
+    line-height: 80px;
+    border: 1px dashed black;
     text-align: center;
 }
 
@@ -47,11 +51,30 @@ h2 {
     color: white;
     min-height: 50px;
     line-height: 50px;
-    border: 2px dashed lightgrey;
+    border: 1px dashed lightgrey;
     text-align: center;
-
 }
 
+.box-offset {
+    background-color: rgb(0, 167, 251);
+    color: gold;
+    min-height: 60px;
+    line-height: 60px;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+
 .pdg {
-    padding: 1.3rem 0.7rem 0 0.7rem
+    padding: 0.8rem 0.8rem 0 0.8rem;
+}
+
+.box:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.box-offset:hover {
+    background-color: crimson;
+    color: chartreuse;
 }
