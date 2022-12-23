@@ -1,0 +1,40 @@
+/* reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    /* margin: 0; */
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img,
+svg,
+picture,
+video {
+    max-width: 100%;
+}
+
+/* scritte */
+h2 {
+    font-size: 3rem;
+}
+
+
+/* Blocchi debug*/
+.box {
+    background-color: gold;
+    color: blue;
+    min-height: 100px;
+    line-height: 100px;
+    border: 2px dashed black;
+    text-align: center;
+}
